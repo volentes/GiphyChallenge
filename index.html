@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Giftastic - Emotions</title>
+  <link rel="reset"  href="assets/reset.css">
+  <!--Bootstrap Link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+  integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <!--Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+
+<body>
+  <div class = "wrapper">
+
+<!-- Main heading of the page -->
+  <header></header>
+    <div class="jumbotron">
+      <h1 class="display-3">Let's Get Emotional</h1>
+    </div>
+
+<!-- Section where theme buttons will display -->
+    <div id = "buttons"></div>
+
+<!-- Section where the gifs will display -->
+    <div id = "gifselection" class="row"></div>
+
+
+<!-- Section where user will input new button -->
+    <form id="gif-form">
+      <label for="gif-input">Add an Emotion</label>
+      <input type="text" id="gif-input">
+<!-- Button triggers new gif to be added to button display -->
+      <input id="add-gif" type="submit" value="Submit">
+    </form>
+
+  </div>
+
+<!--Link to the Javascript/Jquery file -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript" src= "assets/gif.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+  background-image: url("../assets/concrete-texture/concrete-texture.png")
+}
+
+header {
+  background-image: url("../assets/emotions2.jpg");
+  background-repeat: repeat-x;
+  padding: 80px;
+}
+
+.jumbotron {
+  margin: 60px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  margin-top: 20px;
+  background-color: #a9a9a9;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+#buttons {
+  margin-top: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  background-color: #d3d3d3;
+}
+
+#gifselection {
+  float: left;
+  clear: both;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+ p {
+   margin-bottom: 40px;
+   float; left;
+   clear: both;
+   font-family: 'Amatic SC', cursive;
+   font-size: 20px; 
+ }
+
+ img {
+   margin: 10px;
+ }
+
+#gif-form {
+  float: left;
+  clear: both;
+  margin-left: 900px;
+  position: absolute;
+}
+ label{
+   font-family: 'Amatic SC', cursive;
+   font-size: 40px;
+ }
+
+ #add-gif {
+   font-family: 'Amatic SC', cursive;
+   font-size: 20px;
+   background-color: #d3d3d3;
+ }
+
+ .butn{
+   padding: 10px;
+   margin: 10px;
+   background-color: #d3d3d3;
+   font-family: 'Amatic SC', cursive;
+
+ }
